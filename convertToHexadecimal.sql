@@ -1,4 +1,1 @@
-SELECT
-  to_hex(legs) as legs,
-  to_hex(arms) as arms
-FROM monsters;
+SELECT TO_HEX(legs) as legs FROM monsters;
